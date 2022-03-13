@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Soul Music</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleWpp.css">
+</head>
+
+<body>
+  <!--Boton de WPP-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=573108972123&text=Hola%21%20Quisieras%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SoulMusic."
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i></a>
+  <!--Boton de WPP-->
+
+  <header class="main-header">
+    <div class="container-fluid container--flex">
+      <div class="main-header__container">
+        <h1 class="main-header__title">SOUL MUSIC</h1>
+        <span class="icon-menu " id="btn-menu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav" id="main-nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
+            <li class="menu__item"><a href="#info-quienes_somos" class="menu__link">Quienes somos</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Caracteristicas</a></li>
+            <li class="menu__item"><a href="#tienda" class="menu__link">Tienda</a></li>
+            <li class="menu__item"><a href="#info-contactos" class="menu__link">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main-header__container">
+        <span class="main-header__txt">Contacto:</span>
+        <p class="main-header__txt"><i class="fab fa-whatsapp"></i> WhatsApp: 3108972123</p>
+      </div>
+
+      <div class="main-header__container">
+        <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+      </div>
+    </div>
+  </header>
+
+  <!--SLIDER-->
+
+  <div class="container-slider">
+    <div class="slider" id="slider">
+      <div class="slider__section">
+        <img src="public/img/imagenes/audio-1844798_1920.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">MICROFONOS</h2>
+          <p class="slider__txt">La mejor experiencia con microfoneo</p>
+          <a href="pagina_home_studio.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="public/img/imagenes/cello-2830670_1920.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">CELLO</h2>
+          <p class="slider__txt">Aumenta tu experiencia con las cuerdas frotadas</p>
+          <a href="pagina_violines.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="public/img/imagenes/Obsession.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">PIANOS</h2>
+          <p class="slider__txt">Saca el clasico que llevas dentro</p>
+          <a href="pagina_teclados.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="public/img/imagenes/drum-set-1839383_1920.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">BATERIAS</h2>
+          <p class="slider__txt">Se tu quien lleve el ritmo</p>
+          <a href="pagina_baterias.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="public/img/imagenes/e-guitar-1736291_1920.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">GUITARRAS</h2>
+          <p class="slider__txt">Sorpende a tus amigos con los mejores solos</p>
+          <a href="pagina_guitarras.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="public/img/imagenes/piano-362251_1920.jpg" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">SINTETIZADORES</h2>
+          <p class="slider__txt">Ofrecen la mejor calidad a la hora de tus mezclas</p>
+          <a href="pagina_teclados.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+      <div class="slider__section">
+        <img src="public/img/imagenes/Piano.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">PIANOS</h2>
+          <p class="slider__txt">Desde los mas chicos hasta los mas grandes</p>
+          <a href="pagina_teclados.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+
+      <div class="slider__section">
+        <img src="public/img/imagenes/studio-1003635_1920.png" alt="" class="slider__img">
+        <div class="slider__content">
+          <h2 class="slider__title">HOME STUDIO</h2>
+          <p class="slider__txt">Diviertete produciendo tu musica</p>
+          <a href="pagina_home_studio.html" class="btn-shop">Ver mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+    <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+  </div>
+
+  <!--Lista instrumentos-->
+
+  <main class="main" id="tienda">
+    <div class="container-fluid">
+      <h2 class="main-title">Nuevos instrumentos</h2>
+      <section class="container-products">
+
+        <div class="product">
+          <img src="public/img/img_instrumentos/Pianos/KAWAI/Kawai-ND-21.PNG" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Piano-Kawai</h3>
+            <span class="product__price">20'700,000</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Piano-Kawai</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Pianos/KAWAI/Kawai-ND-21.PNG" alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Piano-Kawai</h3>
+                    <span class="product__price">20'700,000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/GUITARRAS/GIBSON/Gibson-ES-335-Figured-Iced-Tea.PNG" alt=""
+            class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Guitarra-Gibson</h3>
+            <span class="product__price">16'920,000</span>
+          </div>
+
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#guitarra-Gibson"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="guitarra-Gibson" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Guitarra-Gibson</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/GUITARRAS/GIBSON/Gibson-ES-335-Figured-Iced-Tea.PNG" alt=""
+                    class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Guitarra-Gibson</h3>
+                    <span class="product__price">16´920,000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Drumms/GRETSCH/Gretsch-Renown-Maple-Studio-Piano-Black.PNG" alt=""
+            class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Bateria-Gretsch</h3>
+            <span class="product__price">6'870,000</span>
+          </div>
+
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#bateria-Gretsch"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="bateria-Gretsch" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Bateria-Gretsch</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Drumms/GRETSCH/Gretsch-Renown-Maple-Studio-Piano-Black.PNG"
+                    alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Bateria-Gretsch</h3>
+                    <span class="product__price">6'870,000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/imagenes/saxophone-546303_1280.jpg" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Saxophone-Jupiter</h3>
+            <span class="product__price">2´350.000</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#saxophone-Jupiter"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="saxophone-Jupiter" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Saxophone-Jupiter</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/imagenes/saxophone-546303_1280.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Saxophone-Jupiter</h3>
+                    <span class="product__price">2´350.000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/GUITARRAS/IBANEZ/Ibanez-JS1CR-Joe-Satriani-Chrome-Boy.PNG" alt=""
+            class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Guitarra-Ibanez</h3>
+            <span class="product__price">26'437,500</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#guitarra-Ibanez"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="guitarra-Ibanez" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Guitarra-Ibanez</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/GUITARRAS/IBANEZ/Ibanez-JS1CR-Joe-Satriani-Chrome-Boy.PNG"
+                    alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">guitarra-Ibanez</h3>
+                    <span class="product__price">26'437,500</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/ORQUESTA/Flauta-Dulce-Hohner-B9565c.PNG" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Flauta Dulce-Hohner</h3>
+            <span class="product__price">103,900</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal"
+            data-bs-target="#flauta-Dulce-Hohner-B9565c" type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="flauta-Dulce-Hohner-B9565c" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Flauta-Dulce-Hohner</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/ORQUESTA/Flauta-Dulce-Hohner-B9565c.PNG" alt=""
+                    class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Flauta-Dulce-Hohner-B9565c</h3>
+                    <span class="product__price">103,900</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Drumms/MAPEX/Mapex-MA446SBAW.PNG" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Bateria-Mapex</h3>
+            <span class="product__price">3'690,000</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#bateria-Mapex"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="bateria-Mapex" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Bateria-Mapex</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Drumms/MAPEX/Mapex-MA446SBAW.PNG" alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Bateria-Mapex</h3>
+                    <span class="product__price">3'690,000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Microfonos/AKG-P120.PNG" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Microfono-AKG</h3>
+            <span class="product__price">259,900</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#microfono-Akg"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="microfono-Akg" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Microfono-AKG</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Microfonos/AKG-P120.PNG" alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Microfono-AKG</h3>
+                    <span class="product__price">259,900</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Violines/Stentor/Stentor-Arcadia.PNG" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Violin-Stentor</h3>
+            <span class="product__price">532,000</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#violin-Stentor"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="violin-Stentor" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Violin-Stentor</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Violines/Stentor/Stentor-Arcadia.PNG" alt=""
+                    class="product__img" style="height: 100%; width: 100%;">
+                  <div class="product__description">
+                    <h3 class="product__title">Violin-Stentor</h3>
+                    <span class="product__price">532,000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Microfonos/Interfaz-Focusrite-Scarle-pack-3raGen.PNG" alt=""
+            class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Interfaz-Focusrite</h3>
+            <span class="product__price">1'104,900</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#interfaz-Focusrite"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="interfaz-Focusrite" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Interfaz-Focusrite</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Microfonos/Interfaz-Focusrite-Scarle-pack-3raGen.PNG" alt=""
+                    class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Interfaz-Focusrite</h3>
+                    <span class="product__price">1'104,900</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Bajos/Bajo-Ibanez-Gsrm20b.PNG" alt="" class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Bajo electrico-Ibanez</h3>
+            <span class="product__price">1'048,900</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#bajoElectrico-Ibanez"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="bajoElectrico-Ibanez" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Bajo electrico-Ibanez</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Bajos/Bajo-Ibanez-Gsrm20b.PNG" alt="" class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Bajo electrico-Ibanez</h3>
+                    <span class="product__price">1'048,900</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+        <div class="product">
+          <img src="public/img/img_instrumentos/Microfonos/Monitores-Presonus-Eris-E4.5.PNG" alt=""
+            class="product__img">
+          <div class="product__description">
+            <h3 class="product__title">Monitores-PreSonus</h3>
+            <span class="product__price">830,000</span>
+          </div>
+          <!--Inicio MODAL Compra-->
+          <button type="button" class="btn product__icon" data-bs-toggle="modal" data-bs-target="#monitores-PreSonus"
+            type="button">
+            Comprar ahora
+          </button>
+          <div class="modal fade" id="monitores-PreSonus" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Monitores-PreSonus</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="public/img/img_instrumentos/Microfonos/Monitores-Presonus-Eris-E4.5.PNG" alt=""
+                    class="product__img">
+                  <div class="product__description">
+                    <h3 class="product__title">Monitores-PreSonus</h3>
+                    <span class="product__price">830,000</span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="" class="btn btn-primary" onclick="">Comprar</a>
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fin MODAL Compra-->
+        </div>
+      </section>
+    </div>
+
+    <!--Algun testimonio o algo para contar sobre la pagina-->
+
+
+    <!--Imagenes a resaltar -->
+
+    <div class="container-editor">
+      <div class="editor__item">
+        <img src="public/img/imagenes/Saxo_Piano_Violin.jpg" alt="" class="editor__img">
+        <p class="editor__circle">VIVE LA EXPERIENCIA</p>
+      </div>
+
+      <div class="editor__item">
+        <img src="public/img/imagenes/Piano_Guitarra.jpg" alt="" class="editor__img">
+        <p class="editor__circle">LA MUSICA ES PARTE DE TI</p>
+      </div>
+    </div>
+
+    <!--SUBTITULOS -->
+    <section class="container-tips">
+      <div class="tip">
+        <i class="far fa-hand-paper"></i>
+        <h2 class="tip__title">Mas sobre las baterias Mapex</h2>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/DPGSxIzb1ZE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <a href="pagina_bateria_mapex.html" class="btn-shop">Ir ahora</a>
+      </div>
+      <div class="tip">
+        <i class="fas fa-rocket"></i>
+        <h2 class="tip__title">Pianos</h2>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/qAk0OOe3u-U" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <a href="pagina_teclados.html" class="btn-shop">Ir ahora</a>
+      </div>
+      <div class="tip">
+        <i class="fas fa-cog"></i>
+        <h2 class="tip__title">Home Studio</h2>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/ouUDYDzTDXY" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <a href="pagina_home_studio.html" class="btn-shop">Ir ahora</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer" id="info-quienes_somos">
+    <div class="footer__section">
+      <h2 class="footer__title">Quienes somos</h2>
+      <div class="footer__txt">
+        <h3>Misión</h3>
+        <p>Distribuir instrumentos musicales con los mejores estándares de calidad, servicio y tiempos de entrega.</p>
+        <h3>Visión</h3>
+        <p>La empresa proyecta a 2 años la adquisición de un crecimiento en sus puntos de venta en un 3% más de la
+          actualidad manteniendo los mejores estándares de calidad, servicio y tiempos de entrega.</p>
+        <h3>Objetivo</h3>
+        <p>Volver a ganar terreno en el mercado de instrumentos musicales utilizando esta herramienta para mostrarnos al
+          público de una forma más amplia la variedad de instrumentos que estén disponibles para la venta.</p>
+
+      </div>
+    </div>
+    <div class="footer__section" id="info-contactos">
+      <h2 class="footer__title">Fundación</h2>
+      <p class="footer__txt">La empresa Soul Music fue fundada en 2015 con una inversión de 27.000.000 millones de pesos
+        por 3 personas; fue un proceso complejo debido al mercado tan agresivo, no obstante, con trabajo duro y
+        constancia en 2019 se logró alcanzar y demostrar un crecimiento notable en nuestra compañía.
+        Ya contamos con 2 puntos de venta estratégicamente en el mercado con 15 empleados en la campañia, somos
+        apasionados, llegamos a los hogares y corazones de todos nuestros clientes brindando una satisfacción en el
+        servicio y productos.</p>
+      <h2 class="footer__title">contactanos</h2>
+      <p class="footer__txt"><i class="fab fa-whatsapp"></i> WhatsApp: 3108972123</p>
+      <a href="https://www.facebook.com/profile.php?id=100066139539538&sk=photos_by" class="footer__txt"><i
+          class="fab fa-facebook"></i> Facebook - Soul Music</a> <br><br>
+      <a href="https://www.instagram.com/soul_m__2021/" class="footer__txt"><i class="fab fa-instagram"></i>
+        Soul_Music</a>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Links-pagina</h2>
+      <a href="" class="footer__link">Acerca de</a>
+      <a href="" class="footer__link">Error</a>
+      <a href="#tienda" class="footer__link">Tienda</a>
+      <a href="#info-contactos" class="footer__link">Contacto</a>
+      <a href="index.html" class="footer__link">Inicio</a>
+    </div>
+    <div class="footer__section">
+      <h2 class="footer__title">Registrate</h2>
+      <p class="footer__txt">Mantente al día con cada uno de nuestros instrumentos regístrate y así te enviaremos todo
+        el material nuevo que se emplee en nuestra empresa.</p>
+      <input type="email" class="footer__input" placeholder="Ingresa tu Email">
+      <button class="boton_footer">Enviar</button>
+    </div>
+    <p class="copy">&copy;Creada el 18/06/2021 Alejandro Quiceno - Jaime Humberto Mesa - Dora Alejandra Morales</p>
+  </footer>
+
+  <script src="JavaScript/menu.js"></script>
+  <script src="JavaScript/javascript_slider.js"></script>
+  <script src="JavaScript/filtro_busqueda.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
